@@ -6,5 +6,11 @@ namespace Mardin_Artuklu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1 = new Button();
+            button1.BackColor = Color.Black;
+        }
     }
 }
